@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QnA Pendataan Survei</title>
     <style>
-        /* ... (keep previous styles) ... */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -37,6 +36,20 @@
             color: #333;
             text-align: center;
         }
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .home-image {
+            max-width: 200px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .text-content {
+            flex: 1;
+        }
         .category-list {
             list-style-type: none;
             padding: 0;
@@ -55,19 +68,17 @@
         .category-list a:hover {
             background-color: #e0e0e0;
         }
-        .content-wrapper {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        .home-image {
-            max-width: 200px; /* Adjust this value to change image size */
-            height: auto;
-            margin-right: 20px;
-            border-radius: 5px;
-        }
-        .text-content {
-            flex: 1;
+
+        /* Media query for mobile devices */
+        @media (max-width: 600px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            .home-image {
+                max-width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
         }
     </style>
 </head>
@@ -86,8 +97,8 @@
         <div class="content-wrapper">
             <img src="logo-bps.png" alt="Welcome Image" class="home-image">
             <div class="text-content">
-                <p>Situs Web 'QnA Pendataan Survei - BPS Kota Solok' diharapkan dapat memudahkan Petugas Pendataan melihat pertanyaan-jawaban yang memuat kasus atau keraguan saat melakukan pendataan. Silakan pilih QnA Pendataan Survei yang ingin dilihat: </p>
-                
+                <p>Situs Web 'QnA Pendataan Survei - BPS Kota Solok' diharapkan dapat memudahkan Petugas Pendataan melihat pertanyaan-jawaban yang memuat kasus atau keraguan saat melakukan pendataan. \nSilakan pilih QnA Pendataan Survei yang ingin dilihat: </p>
+            
                 <ul class="category-list">
                     <li><a href="qna_vimk.html">Survei Industri Mikro Kecil (VIMK) Tahunan</a></li>
                     <li><a href="qna_soon.html">Coming Soon!</a></li>
