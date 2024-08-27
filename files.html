@@ -24,6 +24,11 @@
         nav a:hover {
             background-color: #ddd;
         }
+        .pdf-container {
+            width: 100%;
+            height: 600px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -34,7 +39,9 @@
     </nav>
     <h1>Files</h1>
     <h2>PDF File</h2>
-    <p><a href="Kuesioner_VIMK24-S2.pdf">View PDF</a></p>
+    <div class="pdf-container">
+        <iframe src="Kuesioner_VIMK24-S2.pdf" width="100%" height="100%"></iframe>
+    </div>
     <h2>JPEG Image</h2>
     <img src="your_image.jpg" alt="Description of your image" style="max-width: 100%;">
 </body>
