@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Q&A Website</title>
     <style>
+        /* ... (keep previous styles) ... */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -36,13 +37,6 @@
             color: #333;
             text-align: center;
         }
-        .home-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border-radius: 5px;
-        }
         .category-list {
             list-style-type: none;
             padding: 0;
@@ -61,10 +55,25 @@
         .category-list a:hover {
             background-color: #e0e0e0;
         }
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .home-image {
+            max-width: 200px; /* Adjust this value to change image size */
+            height: auto;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .text-content {
+            flex: 1;
+        }
     </style>
 </head>
 <body>
     <nav>
+        <!-- ... (keep navigation links) ... -->
         <a href="index.html">Home</a>
         <a href="qna_animals.html">Animals Q&A</a>
         <a href="qna_space.html">Space Q&A</a>
@@ -74,14 +83,17 @@
     <div class="container">
         <h1>Welcome to My Q&A Website</h1>
         
-        <img src="tes.png" alt="Welcome Image" class="home-image">
-        
-        <p>This is the home page. Here you can find different categories of questions and answers. Choose a category below:</p>
-        
-        <ul class="category-list">
-            <li><a href="qna_animals.html">Animals Q&A</a></li>
-            <li><a href="qna_space.html">Space Q&A</a></li>
-        </ul>
+        <div class="content-wrapper">
+            <img src="tes.jpg" alt="Welcome Image" class="home-image">
+            <div class="text-content">
+                <p>This is the home page. Here you can find different categories of questions and answers. Choose a category below:</p>
+                
+                <ul class="category-list">
+                    <li><a href="qna_animals.html">Animals Q&A</a></li>
+                    <li><a href="qna_space.html">Space Q&A</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
