@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>100 Q&A</title>
+    <title>My Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,40 +12,27 @@
             max-width: 800px;
             margin: 0 auto;
         }
-        .qa {
-            margin-bottom: 20px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 10px;
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
         }
-        .question {
-            font-weight: bold;
+        nav a {
             color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
         }
-        .answer {
-            margin-top: 5px;
-            color: #666;
-        }
-        @media (max-width: 600px) {
-            body {
-                padding: 10px;
-            }
+        nav a:hover {
+            background-color: #ddd;
         }
     </style>
 </head>
 <body>
-    <h1>100 Q&A</h1>
-    
-    <div class="qa">
-        <div class="question">1. What is the first question?</div>
-        <div class="answer">This is the answer to the first question.</div>
-    </div>
-
-    <div class="qa">
-        <div class="question">2. What is the second question?</div>
-        <div class="answer">This is the answer to the second question.</div>
-    </div>
-
-    <!-- Add more Q&A pairs here -->
-
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="qna.html">Q&A</a>
+        <a href="files.html">Files</a>
+    </nav>
+    <h1>Welcome to My Website</h1>
+    <p>This is the home page. Use the menu above to navigate.</p>
 </body>
 </html>
