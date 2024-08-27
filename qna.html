@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Keep your existing head content, but update the title if you want -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q&A Page</title>
-    <!-- Add this style for the navigation -->
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
         nav {
             background-color: #f4f4f4;
             padding: 10px;
@@ -17,10 +24,22 @@
         nav a:hover {
             background-color: #ddd;
         }
+        .qa {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .Pertanyaan {
+            font-weight: bold;
+            color: #333;
+        }
+        .Respon {
+            margin-top: 5px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
-    <!-- Add this navigation menu at the top of the body -->
     <nav>
         <a href="index.html">Home</a>
         <a href="qna.html">Q&A</a>
@@ -29,7 +48,24 @@
     
     <h1>100 Q&A</h1>
     
-    <!-- Your existing Q&A content goes here -->
+    <div id="qna-container"></div>
 
+    <script>
+        fetch('qna_data.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('qna-container');
+                data.forEach((item, index) => {
+                    const qaDiv = document.createElement('div');
+                    qaDiv.className = 'qa';
+                    qaDiv.innerHTML = `
+                        <div class="Pertanyaan">${index + 1}. ${item.Pertanyaan}</div>
+                        <div class="Respon">${item.Respon}</div>
+                    `;
+                    container.appendChild(qaDiv);
+                });
+            })
+            .catch(error => console.error('Error loading Q&A data:', error));
+    </script>
 </body>
 </html>
