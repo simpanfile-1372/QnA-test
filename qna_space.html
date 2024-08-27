@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A - Space</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .qa {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .Pertanyaan {
+            font-weight: bold;
+            color: #333;
+        }
+        .Respon {
+            margin-top: 5px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="qna_animals.html">Animals Q&A</a>
+        <a href="qna_space.html">Space Q&A</a>
+        <a href="files.html">Files</a>
+    </nav>
+    
+    <h1>Q&A - Space</h1>
+    
+    <div id="qna-container"></div>
+
+    <script>
+        fetch('qna_space.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('qna-container');
+                data.forEach((item, index) => {
+                    const qaDiv = document.createElement('div');
+                    qaDiv.className = 'qa';
+                    qaDiv.innerHTML = `
+                        <div class="Pertanyaan">${index + 1}. ${item.Pertanyaan}</div>
+                        <div class="Respon">${item.Respon}</div>
+                    `;
+                    container.appendChild(qaDiv);
+                });
+            })
+            .catch(error => console.error('Error loading Q&A data:', error));
+    </script>
+</body>
+</html>
