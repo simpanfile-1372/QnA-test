@@ -29,11 +29,11 @@
             border-bottom: 1px solid #eee;
             padding-bottom: 10px;
         }
-        .question {
+        .Pertanyaan {
             font-weight: bold;
             color: #333;
         }
-        .answer {
+        .Respon {
             margin-top: 5px;
             color: #666;
         }
@@ -60,8 +60,8 @@
                     const qaDiv = document.createElement('div');
                     qaDiv.className = 'qa';
                     qaDiv.innerHTML = `
-                        <div class="question">${index + 1}. ${item.question}</div>
-                        <div class="answer">${item.answer}</div>
+                        <div class="Pertanyaan">${index + 1}. ${item.Pertanyaan}</div>
+                        <div class="Respon">${item.Respon}</div>
                     `;
                     container.appendChild(qaDiv);
                 });
