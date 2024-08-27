@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A - Category</title>
+  <style>   
+  body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .qa {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .question {
+            font-weight: bold;
+            color: #333;
+        }
+        .answer {
+            margin-top: 5px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="qna_category1.html">Q&A Category 1</a>
+        <a href="qna_category2.html">Q&A Category 2</a>
+        <a href="files.html">Files</a>
+    </nav>
+    
+    <h1 id="category-title">Q&A - Category</h1>
+    
+    <div id="qna-container"></div>
+
+    <script>
+        // Get the category from the file name
+        const category = window.location.pathname.split('/').pop().split('.')[0].replace('qna_', '');
+        
+        // Update the title
+        document.getElementById('category-title').textContent = `Q&A - ${category.charAt(0).toUpperCase() + category.slice(1)}`;
+        
+        // Load the appropriate JSON file
+        fetch(`qna_${category}.json`)
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('qna-container');
+                data.forEach((item, index) => {
+                    const qaDiv = document.createElement('div');
+                    qaDiv.className = 'qa';
+                    qaDiv.innerHTML = `
+                        <div class="question">${index + 1}. ${item.question}</div>
+                        <div class="answer">${item.answer}</div>
+                    `;
+                    container.appendChild(qaDiv);
+                });
+            })
+            .catch(error => console.error('Error loading Q&A data:', error));
+    </script>
+</body>
+</html>
