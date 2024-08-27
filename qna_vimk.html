@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q&A - Animals</title>
+    <title>QnA Pendataan Survei IMK Tahunan</title>
     <style>
         /* ... (keep previous styles) ... */
         body {
@@ -69,28 +69,28 @@
     <nav>
         <!-- ... (keep navigation links) ... -->
          <a href="index.html">Home</a>
-        <a href="qna_animals.html">Animals Q&A</a>
-        <a href="qna_space.html">Space Q&A</a>
-        <a href="files.html">Files</a>  
+        <a href="qna_vimk.html">Survei IMK Tahunan</a>
+        <a href="qna_soon.html">Coming Soon!</a>
+        <!-- <a href="files.html">Files</a> -->  
     </nav>
     
-    <h1>Q&A - Animals</h1>
+    <h1>QnA Pendataan Survei IMK Tahunan</h1>
     
-    <button type="button" class="collapsible">Q&A Section</button>
-    <div class="content">
-        <div id="qna-container"></div>
-    </div>
-
-    <button type="button" class="collapsible">PDF Section</button>
+    <button type="button" class="collapsible">Kuesioner VIMK-S2</button>
     <div class="content">
         <div class="pdf-container">
             <iframe src="Kuesioner_VIMK24-S2.pdf" width="100%" height="100%"></iframe>
         </div>
     </div>
-
+    
+    <button type="button" class="collapsible">QnA</button>
+    <div class="content">
+        <div id="qna-container"></div>
+    </div>
+    
     <script>
         // Load Q&A data
-        fetch('qna_animals.json')
+        fetch('qna_vimk.json')
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('qna-container');
