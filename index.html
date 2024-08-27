@@ -4,83 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QnA Pendataan Survei</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #f0f0f0;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 5px 10px;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        .content-wrapper {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        .home-image {
-            max-width: 200px;
-            height: auto;
-            margin-right: 20px;
-            border-radius: 5px;
-        }
-        .text-content {
-            flex: 1;
-        }
-        .category-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .category-list li {
-            margin-bottom: 10px;
-        }
-        .category-list a {
-            display: block;
-            padding: 10px;
-            background-color: #f4f4f4;
-            color: #333;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .category-list a:hover {
-            background-color: #e0e0e0;
-        }
-
-        /* Media query for mobile devices */
-        @media (max-width: 600px) {
-            .content-wrapper {
-                flex-direction: column;
-            }
-            .home-image {
-                max-width: 100%;
-                margin-right: 0;
-                margin-bottom: 20px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
@@ -97,7 +21,8 @@
         <div class="content-wrapper">
             <img src="logo-bps.png" alt="Welcome Image" class="home-image">
             <div class="text-content">
-                <p>Situs Web 'QnA Pendataan Survei - BPS Kota Solok' diharapkan dapat memudahkan Petugas Pendataan melihat pertanyaan-jawaban yang memuat kasus atau keraguan saat melakukan pendataan. \nSilakan pilih QnA Pendataan Survei yang ingin dilihat: </p>
+                <p>Situs Web 'QnA Pendataan Survei - BPS Kota Solok' diharapkan dapat memudahkan Petugas Pendataan melihat pertanyaan-jawaban yang memuat kasus atau keraguan saat melakukan pendataan.<br>
+                    Silakan pilih QnA Pendataan Survei yang ingin dilihat: </p>
             
                 <ul class="category-list">
                     <li><a href="qna_vimk.html">Survei Industri Mikro Kecil (VIMK) Tahunan</a></li>
