@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q&A - Space</title>
+    <title>Coming Soon!</title>
     <style>
+        /* ... (keep previous styles) ... */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -37,22 +38,59 @@
             margin-top: 5px;
             color: #666;
         }
+        .collapsible {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+        .active, .collapsible:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+        .pdf-container {
+            width: 100%;
+            height: 500px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="qna_animals.html">Animals Q&A</a>
-        <a href="qna_space.html">Space Q&A</a>
-        <a href="files.html">Files</a>
+        <!-- ... (keep navigation links) ... -->
+         <a href="index.html">Home</a>
+        <a href="qna_vimk.html">Survei IMK Tahunan</a>
+        <a href="qna_soon.html">Coming Soon!</a>
+        <!-- <a href="files.html">Files</a> -->  
     </nav>
     
-    <h1>Q&A - Space</h1>
+    <h1>QnA Pendataan Survei</h1>
     
-    <div id="qna-container"></div>
-
+    <button type="button" class="collapsible">Kuesioner</button>
+    <div class="content">
+        <div class="pdf-container">
+            <!-- <iframe src="Kuesioner_VIMK24-S2.pdf" width="100%" height="100%"></iframe> -->
+        </div>
+    </div>
+    
+    <button type="button" class="collapsible">QnA</button>
+    <div class="content">
+        <div id="qna-container"></div>
+    </div>
+    
     <script>
-        fetch('qna_space.json')
+        // Load Q&A data
+        fetch('qna_soon.json')
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('qna-container');
@@ -67,6 +105,22 @@
                 });
             })
             .catch(error => console.error('Error loading Q&A data:', error));
+
+        // Collapsible functionality
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
     </script>
 </body>
 </html>
