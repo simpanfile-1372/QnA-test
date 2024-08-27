@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q&A - Category</title>
-  <style>   
-  body {
+    <title>Q&A - Animals</title>
+    <style>
+        body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             padding: 20px;
@@ -42,24 +42,17 @@
 <body>
     <nav>
         <a href="index.html">Home</a>
-        <a href="qna_category1.html">Q&A Category 1</a>
-        <a href="qna_category2.html">Q&A Category 2</a>
+        <a href="qna_animals.html">Animals Q&A</a>
+        <a href="qna_space.html">Space Q&A</a>
         <a href="files.html">Files</a>
     </nav>
     
-    <h1 id="category-title">Q&A - Category</h1>
+    <h1>Q&A - Animals</h1>
     
     <div id="qna-container"></div>
 
     <script>
-        // Get the category from the file name
-        const category = window.location.pathname.split('/').pop().split('.')[0].replace('qna_', '');
-        
-        // Update the title
-        document.getElementById('category-title').textContent = `Q&A - ${category.charAt(0).toUpperCase() + category.slice(1)}`;
-        
-        // Load the appropriate JSON file
-        fetch(`qna_${category}.json`)
+        fetch('qna_animals.json')
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('qna-container');
