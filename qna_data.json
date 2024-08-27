@@ -1,414 +1,414 @@
 [
 {
-  "Pertanyaan": "1. usaha konveksi banyak menggunakan pekerja yg jahitnya dikerjakan di rumah masing-masing (lokasi pabrik dengan rumah pekerja masih dalam 1 BS), apakah ini termasuk maklun? apakah pekerja yg mengerjakan pekerjaan menjahitnya dirumah tsb dihitung sebagai pekerja di pabrik konveksi atau tidak? usaha konveksi dalam skala kecil",
+  "Pertanyaan": "Usaha konveksi banyak menggunakan pekerja yg jahitnya dikerjakan di rumah masing-masing (lokasi pabrik dengan rumah pekerja masih dalam 1 BS), apakah ini termasuk maklun? apakah pekerja yg mengerjakan pekerjaan menjahitnya dirumah tsb dihitung sebagai pekerja di pabrik konveksi atau tidak? usaha konveksi dalam skala kecil",
   "Respon": "Tergantung, jika penjahit tersebut menangung resiko, kerugian dan sebagainya dalam proses produksi, maka termasuk pengusaha\r\n\r\nJika penjahit menerima bayaran tanpa resiko dari pabrik konveksi tersebut, maka termasuk pekerja"
 },
 {
-  "Pertanyaan": "2. Untuk isian R 210 apakah koperasi yang dimaksud harus berbadan hukum yang sesuai kegiatannya atau termasuk koperasi yang tidak berkaitan dengan usaha ?",
+  "Pertanyaan": "Untuk isian R 210 apakah koperasi yang dimaksud harus berbadan hukum yang sesuai kegiatannya atau termasuk koperasi yang tidak berkaitan dengan usaha ?",
   "Respon": " Yang mempunyai pengesahan dari dinas koperasi"
 },
 {
-  "Pertanyaan": "3. Apabila usaha tersebut hanya masuk paguyuban saja contoh paguyuban pedagang pasar belum bentuk koperasi juga termasuk kode 1.    ",
+  "Pertanyaan": "Apabila usaha tersebut hanya masuk paguyuban saja contoh paguyuban pedagang pasar belum bentuk koperasi juga termasuk kode 1.    ",
   "Respon": "Hanya untuk koperasi"
 },
 {
-  "Pertanyaan": "4.                                                                                                                                                                                                                                                                                                                                                                                                                                                     Untk Blok VI R 602 G apabila menggunakan lahan orang lain tanpa sewa apakah nilai sewa dimputasi ?                                                                                                                            ",
+  "Pertanyaan": "Untuk Blok VI R 602 G apabila menggunakan lahan orang lain tanpa sewa apakah nilai sewa dimputasi ?                                                                                                                            ",
   "Respon": "Tidak perlu pengeluaran untuk sewa lahan ditulis apa adanya"
 },
 {
-  "Pertanyaan": "5. Untuk pelaksanaan listing dengan CAPI apakah nanti akan disediakan dashboard dan raw data untuk bisa dilakukan pemeriksaan terlebih dahulu sebelum penarikan sampel?",
+  "Pertanyaan": "Untuk pelaksanaan listing dengan CAPI apakah nanti akan disediakan dashboard dan raw data untuk bisa dilakukan pemeriksaan terlebih dahulu sebelum penarikan sampel?",
   "Respon": "Ya, nanti akan ada dashboard untuk monitoring dan export data ke excel agar provinsi memastikan KBLI dan skala usahanya sebelum penarikan sampel, karena kali ini penarikan sampel tidak bisa unfinal. Namun untuk tarik sampel secara sistem ditangan admin kab/kota"
 },
 {
-  "Pertanyaan": "6. Pergantian sampel karena batas akhir waktu pendataan, sedangkan waktu pendataan sudah habis tengatnya ? diperpanjang waktu pendataan ?",
+  "Pertanyaan": "Pergantian sampel karena batas akhir waktu pendataan, sedangkan waktu pendataan sudah habis tengatnya ? diperpanjang waktu pendataan ?",
   "Respon": "Informasi \"tidak dapat dicacah sampai dengan batas waktu pencacahan\", dapat diperoleh perkiraannya sebelum akhir periode pencacahan, sehingga memungkinkan utk ganti sampel."
 },
 {
-  "Pertanyaan": "7. sampel pengganti yang diambil harus dari BS yang sama? berarti untuk tahun ini jumlah sampel cadangan ada pada setiap BS ya? bagaimana jika pada BS tsb sudah habis semua sampel cadangannya, namun ada yang tidak eligible pada saat pencacahan?",
+  "Pertanyaan": "Sampel pengganti yang diambil harus dari BS yang sama? berarti untuk tahun ini jumlah sampel cadangan ada pada setiap BS ya? bagaimana jika pada BS tsb sudah habis semua sampel cadangannya, namun ada yang tidak eligible pada saat pencacahan?",
   "Respon": "Untuk sampel pengganti dicari hanya dari BS yang sama"
 },
 {
-  "Pertanyaan": "8. Jika terjadi kesalahan penentuan KBLI dan atau skala usaha saat listing, dan usaha tersebut menjadi sampel, apakah sampel utama diganti?\r\n",
-  "Respon": "silahkan ganti sesuai urutan prioritas yang sudah di tentukan selama belum lebih daru 10 % (beda kbli, klasifikasi, ganti sampel, dan nonrespon)"
+  "Pertanyaan": "Jika terjadi kesalahan penentuan KBLI dan atau skala usaha saat listing, dan usaha tersebut menjadi sampel, apakah sampel utama diganti?\r\n",
+  "Respon": "Silakan ganti sesuai urutan prioritas yang sudah di tentukan selama belum lebih daru 10 % (beda kbli, klasifikasi, ganti sampel, dan nonrespon)"
 },
 {
-  "Pertanyaan": "9. Kenapa Tahun ini disyaratkan pengganti Harus dari BS yang sama?. apabila diganti karena masalah biaya transportasi besar/sulit ke daerah tersebut, bagaimana mekanisme yg memungkinkan dilakukan?.",
+  "Pertanyaan": "Kenapa Tahun ini disyaratkan pengganti Harus dari BS yang sama?. apabila diganti karena masalah biaya transportasi besar/sulit ke daerah tersebut, bagaimana mekanisme yg memungkinkan dilakukan?.",
   "Respon": "Karena setiap KBLI usaha di BS yang dituju merupakan representasi populasi BS itu sendiri, bukan BS lain. ketika misalnya di BS 01 jumlah sampel KBLI 14 ada 10 usaha, 1 usaha tidak bisa dicacah maka 9 usaha di BS 01 itu akan tetap mewakili keseluruhan KBLI 14 di BS dan penimbangnya akan menyesuaikan. Jika sampel pengganti diambil dari BS lain, misal BS 02 maka yang akan terjadi adalah jumlah usaha KBLI 14 di BS 01 tetap 9, namun di BS 02 jumlahnya bertambah 1 untuk KBLI 14.\r\n\r\njadi jika memaksakan ganti sampel dari BS yang lain, tujuan awalnya ingin memperbaiki hasil estimasi, malah jadi membuat hasil estimasi misleading"
 },
 {
-  "Pertanyaan": "10. Untuk penggantian sampel bagaimana kalau KBLI sampel utama tidak tersedia di sampel cadangan pada BS yg sama, tetapi ada di sampel cadangan BS lain?",
+  "Pertanyaan": "Untuk penggantian sampel bagaimana kalau KBLI sampel utama tidak tersedia di sampel cadangan pada BS yg sama, tetapi ada di sampel cadangan BS lain?",
   "Respon": "Tetap lakukan penggantian sampel di BS itu sesuai dengan SOP penggantian sampelnya"
 },
 {
-  "Pertanyaan": "11. Misal ketika listing skala usaha adalah Industri Kecil, ternyata saat dilakukan pencacahan sampel usaha tersebut skala industri makro. Apakah jika skala usaha berbeda misal dari kecil menjadi mikro juga menyebabkan penggantian sampel?",
-  "Respon": "iya, harus ganti sampel"
+  "Pertanyaan": "Misal ketika listing skala usaha adalah Industri Kecil, ternyata saat dilakukan pencacahan sampel usaha tersebut skala industri makro. Apakah jika skala usaha berbeda misal dari kecil menjadi mikro juga menyebabkan penggantian sampel?",
+  "Respon": "Iya, harus ganti sampel"
 },
 {
-  "Pertanyaan": "12. Apa saja kriteria sample eligilbe pada VIMK Tahunan S2 2024 ini ? karena tahun lalu usaha pada listing  yg \"berproduksi selama setahun yg lalu namun tidak bisa memberikan informasi kegiatan usaha\" tetap terpiih sampel. Sehingga perlu banyak pergantian sampel S2",
-  "Respon": "eligible sampel adalah yang di listing pertanyaan 305 itu berproduksi selama setahun yang lalu dan bisa memberikan jawaban terkait usahanya (kode 1). untuk usaha yang berkode 2 tidak akan terpilih sebagai sampel."
+  "Pertanyaan": "Apa saja kriteria sample eligilbe pada VIMK Tahunan S2 2024 ini ? karena tahun lalu usaha pada listing  yg \"berproduksi selama setahun yg lalu namun tidak bisa memberikan informasi kegiatan usaha\" tetap terpiih sampel. Sehingga perlu banyak pergantian sampel S2",
+  "Respon": "Eligible sampel adalah yang di listing pertanyaan 305 itu berproduksi selama setahun yang lalu dan bisa memberikan jawaban terkait usahanya (kode 1). untuk usaha yang berkode 2 tidak akan terpilih sebagai sampel."
 },
 {
-  "Pertanyaan": "13. Terkait konsep bangunan campuran, apabila kegiatan industri sering dilakukan di satu bagian rumah misalnya ruang tamu untuk menganyam walaupun tidak ada ruang khusus tetap masuk sebagai bangunan campuran ? ",
-  "Respon": "pembuatan anyaman di rumah dan tidak ada ruangan khusus, maka penggunaan bangunan termasuk dalam bangunan campuran"
+  "Pertanyaan": "Terkait konsep bangunan campuran, apabila kegiatan industri sering dilakukan di satu bagian rumah misalnya ruang tamu untuk menganyam walaupun tidak ada ruang khusus tetap masuk sebagai bangunan campuran ? ",
+  "Respon": "Pembuatan anyaman di rumah dan tidak ada ruangan khusus, maka penggunaan bangunan termasuk dalam bangunan campuran"
 },
 {
-  "Pertanyaan": "14. Apakah usaha pembuatan kue basah yang menggunakan dapur rumah tangganya termasuk dalam bangunan campuran ?",
-  "Respon": "pembuatan kue basah yang menggunakan dapur rumah tangga termasuk dalam bangunan campuran"
+  "Pertanyaan": "Apakah usaha pembuatan kue basah yang menggunakan dapur rumah tangganya termasuk dalam bangunan campuran ?",
+  "Respon": "Pembuatan kue basah yang menggunakan dapur rumah tangga termasuk dalam bangunan campuran"
 },
 {
-  "Pertanyaan": "15. Konsep bangunan campuran apakah hanya khusus untuk bangunan yang ada usaha industri saja atau bisa untuk kegiatan usaha sektor lain?",
+  "Pertanyaan": "Konsep bangunan campuran apakah hanya khusus untuk bangunan yang ada usaha industri saja atau bisa untuk kegiatan usaha sektor lain?",
   "Respon": "Konsep bangunan campuran yang sekarang adalah bangunan yang bercampur dengan usaha apa saja (boleh selain industri), misal rumah yang  menyatu dengan toko / warung kelontong"
 },
 {
-  "Pertanyaan": "16. Rumah kosong dianggap sebagai bangunan bukan tempat tinggal atau dimasukkan ke bangunan tempat tinggal?\r\n",
+  "Pertanyaan": "Rumah kosong dianggap sebagai bangunan bukan tempat tinggal atau dimasukkan ke bangunan tempat tinggal?\r\n",
   "Respon": "Selama tidak ada manusia yang tinggal / hidup disitu dianggap sebagai bangunan bukan tempat tinggal"
 },
 {
-  "Pertanyaan": "17. Periode referensi di listing setahun yang lalu adalah Juli 2023 s.d Juni 2024. Untuk pencacahan S2 nya nanti yang ditanyakan produksi dan biaya produksi pada setahun yang lalu atau selama Juli 2024?",
+  "Pertanyaan": "Periode referensi di listing setahun yang lalu adalah Juli 2023 s.d Juni 2024. Untuk pencacahan S2 nya nanti yang ditanyakan produksi dan biaya produksi pada setahun yang lalu atau selama Juli 2024?",
   "Respon": "Untuk Blok yang menanyakan referensi 1 tahun, maka Juli 2023 s.d Juni 2024, untuk yg referensi Bulan terkahir berproduksi, maka bulan terakhir usaha tersebut berproduksi dalam periode Juli 2023 s.d Juni 2024. Jika usaha berporduksi sepanjang tahun, berarti bulan terakhirnya adalah Juni 2024"
 },
 {
-  "Pertanyaan": "18. Jika saat melakukan listing ditemukan usaha yang sudah masuk dalam DPA STPIM namun jumlah tenaga kerja <20, bagaimana perlakuannya? apakah dilisting di IMK Tahunan atau dianggap bukan usaha IMK?",
-  "Respon": " Tetap dianggap usaha IMK, dan jika terpilih sampel, tapi takut double cacah dengan IBS, maka bisa melakukan pergantian sampel"
+  "Pertanyaan": "Jika saat melakukan listing ditemukan usaha yang sudah masuk dalam DPA STPIM namun jumlah tenaga kerja <20, bagaimana perlakuannya? apakah dilisting di IMK Tahunan atau dianggap bukan usaha IMK?",
+  "Respon": "Tetap dianggap usaha IMK, dan jika terpilih sampel, tapi takut double cacah dengan IBS, maka bisa melakukan pergantian sampel"
 },
 {
-  "Pertanyaan": "19. Pertanyaan R.308 Siapa yang dimaksud Pihak lain..?",
+  "Pertanyaan": "Pertanyaan R.308 Siapa yang dimaksud Pihak lain..?",
   "Respon": "Istri, anak, menantu dan family lain di rumah tangga yang sama"
 },
 {
-  "Pertanyaan": "20. R310 opsi \"Di bangunan sensus lain\" tapi jika bangunan sensus lain masih dalam satu BS apakah tidak termasuk eligible sampel?",
+  "Pertanyaan": "R310 opsi \"Di bangunan sensus lain\" tapi jika bangunan sensus lain masih dalam satu BS apakah tidak termasuk eligible sampel?",
   "Respon": "Dibangunan sensus lain disini selain di rumahnya, jika masih dalam satu BS, maka nanti akan tercacah saat mewawancarai bangunan tersebut. jadi termasuk eligible saat mencacah bangunan usaha tsb, bukan saat mencacah rumahnya"
 },
 {
-  "Pertanyaan": "21. Untuk usaha yang mempunyai nama usaha misal \"Indah Tailor\" tapi tidak berbadan usaah, untuk penulisan nama apakah dituliskan nama usahanya saja?",
+  "Pertanyaan": "Untuk usaha yang mempunyai nama usaha misal \"Indah Tailor\" tapi tidak berbadan usaah, untuk penulisan nama apakah dituliskan nama usahanya saja?",
   "Respon": " Ditulis sesuai di plang / plakat / nama usaha-nya (Indah Tailor), tidak perlu harus berbadan usaha"
 },
 {
-  "Pertanyaan": "22. Untuk tagging lokasi apakah hanya untuk usaha IMK saja?",
+  "Pertanyaan": "Untuk tagging lokasi apakah hanya untuk usaha IMK saja?",
   "Respon": "Tagging lokasi dan foto hanya untuk usaha IMK saja di listing (dan yang 305 berkode 1)"
 },
 {
-  "Pertanyaan": "23. Untuk approval pengawas nanti apakah per list usaha hasil listing atau per BS?",
-  "Respon": "approval pengawas karena menggunakan CAPI maka seperti survei lain, per baris / list di listing (termasuk yang bukan usaha)"
+  "Pertanyaan": "Untuk approval pengawas nanti apakah per list usaha hasil listing atau per BS?",
+  "Respon": "Approval pengawas karena menggunakan CAPI maka seperti survei lain, per baris / list di listing (termasuk yang bukan usaha)"
 },
 {
-  "Pertanyaan": "24. apakah untuk pelatihan hari ini bisa diassign VIMK24-Pelatihan kepada akun fasih organik? untuk coba2 supaya ada gambaran",
+  "Pertanyaan": "Apakah untuk pelatihan hari ini bisa diassign VIMK24-Pelatihan kepada akun fasih organik? untuk coba2 supaya ada gambaran",
   "Respon": "Untuk ujicoba aplikasi nanti akan diberikan dengan akun \"dummy\" jadi tidak perlu assign petugas, informasi lebih lengkap akan menyusul"
 },
 {
-  "Pertanyaan": "25. Utamakan pemeriksaan pada hasil pendataan yang berstatus error untuk dilakukan pemeriksaan, baru kemudian status remark, dan selanjutnya status clean\" brati isian eror bs disubmit y?",
+  "Pertanyaan": "Utamakan pemeriksaan pada hasil pendataan yang berstatus error untuk dilakukan pemeriksaan, baru kemudian status remark, dan selanjutnya status clean\" brati isian eror bs disubmit y?",
   "Respon": "Jika yang dimaksud adalah pendataan webentri (S), maka isian error tetap bisa tersimpan / submit. Namun jika yang dimaksud adalah listing (L) yang menggunakan CAPI maka kalau error tidak akan bisa disubmit."
 },
 {
-  "Pertanyaan": "26. Saat listing, apakah masih perlu menggambarkan titik bangunan hasil listing pada Peta WB ? Karena di Fasih sudah mencakup koordinat usaha",
+  "Pertanyaan": "Saat listing, apakah masih perlu menggambarkan titik bangunan hasil listing pada Peta WB ? Karena di Fasih sudah mencakup koordinat usaha",
   "Respon": "Masih diperlukan, karena ada kemungkinan petugas listing dan pencacahan berbeda, sehingga lebih mempermudah petugas melakukan pencacahan"
 },
 {
-  "Pertanyaan": "27. Jadi konsep IMK yang dipakai hanya yg dari BPS ya? dari jumlah tenaga kerja. konsep dari kementerian perindustrian ga dipake yg lihat dari omset dan investasi?. soalnya dicontohkan jika tenaga kerja misal 20, berati sudah dianggap bukan IMK ya?",
+  "Pertanyaan": "Jadi konsep IMK yang dipakai hanya yg dari BPS ya? dari jumlah tenaga kerja. konsep dari kementerian perindustrian ga dipake yg lihat dari omset dan investasi?. soalnya dicontohkan jika tenaga kerja misal 20, berati sudah dianggap bukan IMK ya?",
   "Respon": "Ya betul masih sesuai konsep dari BPS yaitu tenaga kerja karena sampling frame-nya dari Sensus Ekonomi 2016"
 },
 {
-  "Pertanyaan": "28. Jika pembuatan anyaman bilik dari bambu lokasi pembuatannya dilakukan di halaman rumah tanpa ada atap, bagaimana cara pengisian penggunaan bangunannya?",
+  "Pertanyaan": "Jika pembuatan anyaman bilik dari bambu lokasi pembuatannya dilakukan di halaman rumah tanpa ada atap, bagaimana cara pengisian penggunaan bangunannya?",
   "Respon": "Boleh dianggap sebagai bangunan campuran"
 },
 {
-  "Pertanyaan": "29. Pada saat listing, ditemui usaha imk membuat bata merah, pembuatannya dilakukan di halaman depan rumah tanpa bangunan, untuk usaha usaha seperti itu apakah dimasukan sebagai \"bangunan campuran\" (tempat tinggal plus bata), atau dijadikan dua baris, satu \"tempat tinggal\", satunya \"bukan tempat tinggal\" (utk usaha batanya)",
-  "Respon": "jika masih di dalam satu lingkungan rumah, boleh dianggap sebagai bangunan campuran"
+  "Pertanyaan": "Pada saat listing, ditemui usaha imk membuat bata merah, pembuatannya dilakukan di halaman depan rumah tanpa bangunan, untuk usaha usaha seperti itu apakah dimasukan sebagai \"bangunan campuran\" (tempat tinggal plus bata), atau dijadikan dua baris, satu \"tempat tinggal\", satunya \"bukan tempat tinggal\" (utk usaha batanya)",
+  "Respon": "Jika masih di dalam satu lingkungan rumah, boleh dianggap sebagai bangunan campuran"
 },
 {
-  "Pertanyaan": "30.  Apabila selesai listing, ternyata BS tersebut baru ketahuan tidak ada muatan IMK didalamnya, apakah perlu diajukan penggantian BS? (masih dalam periode listing)",
+  "Pertanyaan": "Apabila selesai listing, ternyata BS tersebut baru ketahuan tidak ada muatan IMK didalamnya, apakah perlu diajukan penggantian BS? (masih dalam periode listing)",
   "Respon": "Akan kami konfrimasi lagi, tapi secara SOP pergantian DSBS maksimal sampai 21 Juni 2024"
 },
 {
-  "Pertanyaan": "31. Struktur approval fasih Listing IMK ini sampai level apa ya?",
-  "Respon": "approval di level pengawas"
+  "Pertanyaan": "Struktur approval fasih Listing IMK ini sampai level apa ya?",
+  "Respon": "Approval di level pengawas"
 },
 {
-  "Pertanyaan": "32. Apakah memungkinkan utk PML meng-approve hasil listing sekaligus banyak usaha/baris dari Fasih-SM? bukan satu satu dari fasih mobile",
+  "Pertanyaan": "Apakah memungkinkan untuk PML meng-approve hasil listing sekaligus banyak usaha/baris dari Fasih-SM? bukan satu satu dari fasih mobile",
   "Respon": "Saat ini yang bisa akses Fasih-SM hanya level admin (kab/kota/provinsi/pusat), namun nanti akan dibahas kembali apakah bisa dipermudah untuk approval-nya"
 },
 {
-  "Pertanyaan": "33. Dalam tamplate assign petugas..bila hanya ada BS, tanpa Sub BS...utk isian di SUB BS di tulis apa? isi 0, - atau apa ?\t",
+  "Pertanyaan": "Dalam template assign petugas..bila hanya ada BS, tanpa Sub BS...utk isian di SUB BS di tulis apa? isi 0, - atau apa ?\t",
   "Respon": "Diisi 00 untuk no sub blok sensus-nya"
 },
 {
-  "Pertanyaan": "34. update status sampel pencacahan pada webentry harus satu per satu atau bs dengan template?",
+  "Pertanyaan": "Update status sampel pencacahan pada webentry harus satu per satu atau bs dengan template?",
   "Respon": "Seperti VIMK Tahunan sebelumnya updatenya dilakukan satu per satu"
 },
 {
-  "Pertanyaan": "35. Peta yang dipakai 2010 sudah lama ya, kalau ada BS dengan muatan lebih dari 250KK apakah ada solusi bagi kami kabupaten/kota? ",
+  "Pertanyaan": "Peta yang dipakai 2010 sudah lama ya, kalau ada BS dengan muatan lebih dari 250KK apakah ada solusi bagi kami kabupaten/kota? ",
   "Respon": "Tetap lakukan listing sampai selesai sesuai kondisi lapangan"
 },
 {
-  "Pertanyaan": "36. 1. Kolom yg muncul di fasih hanya No BF, No BS, KBLI, dan Jumlah Pekerja. Apakah memungkinkan jika ditambah kolom Nama KRT?\r\nSehingga petugas lebih mudah dalam melihat daftar KRT di BS tsb tanpa harus klik tombol \"+\"  satu per satu pada kolom No BF terlebih dahulu.\r\n\r\n\r\n2. Muncul Error saat upload foto di rincian 321 dengan notif sbb:\r\n\r\nError upload media : Unable to execute\r\nHTTP request: bucket1.cloud.bps.go.id",
+  "Pertanyaan": "1. Kolom yg muncul di fasih hanya No BF, No BS, KBLI, dan Jumlah Pekerja. Apakah memungkinkan jika ditambah kolom Nama KRT?\r\nSehingga petugas lebih mudah dalam melihat daftar KRT di BS tsb tanpa harus klik tombol \"+\"  satu per satu pada kolom No BF terlebih dahulu.\r\n\r\n\r\n2. Muncul Error saat upload foto di rincian 321 dengan notif sbb:\r\n\r\nError upload media : Unable to execute\r\nHTTP request: bucket1.cloud.bps.go.id",
   "Respon": "1. klik di tanda tambah di kiri maka akan muncul rincian nama KRT dan nama ART\r\n2. Memang sedang ada masalah di server fasih, sedang dilakukan pengecekan"
 },
 {
-  "Pertanyaan": "37. Dok VIMK24-S2, Rincian 203 apakah mungkin bisa terisi kode  -2, saat pencacahan bulan Agustus 2024 sedangkan isian data didalamnya kondisi bulan Juli 2023 s.d Juni 2024 (artinya walaupun saat pencacahan Tidak aktif tetapi data yang dibutuhkan masih bisa didapat)",
+  "Pertanyaan": "Dok VIMK24-S2, Rincian 203 apakah mungkin bisa terisi kode  -2, saat pencacahan bulan Agustus 2024 sedangkan isian data didalamnya kondisi bulan Juli 2023 s.d Juni 2024 (artinya walaupun saat pencacahan Tidak aktif tetapi data yang dibutuhkan masih bisa didapat)",
   "Respon": "Betul, selama bisa ditemukan respondennya, seharusnya aktif berproduksi karena yang ditanya adalah kondisi Juli 2023 - Juni 2024. \r\n\r\nNamun di sini yang ditanyakan adalah kondisi usaha/perusahaan saat pencacahan (Agustus) ya, Pak... \r\nmemungkinkan terisi kode 2, jika saat pencacahan di Agustus itu ternyata usaha/perusahaan sudah tutup atau responden tidak dapat diwawancara sampai periode pencacahan berakhir. Namun jangan langsung diisi tidak aktif berproduksi. Mesti diganti dengan sampel pengganti yang aktif berproduksi saat Agustus 2024."
 },
 {
-  "Pertanyaan": "38. Dok VIMK24-S2, R. 204.\r\na (Membuat/memproduksi/merakit/lainnya) \r\ncontoh lainnya apa saja...?",
+  "Pertanyaan": "Dok VIMK24-S2, R. 204.\r\na (Membuat/memproduksi/merakit/lainnya) \r\ncontoh lainnya apa saja...?",
   "Respon": "Menjahit, menggiling."
 },
 {
-  "Pertanyaan": "39. Klo pas listing salah menuliskan KBLI atau salah jumlah tenaga kerja misal dari IK ke IM atau sebaliknya apa harus ganti sampel?",
+  "Pertanyaan": "Klo pas listing salah menuliskan KBLI atau salah jumlah tenaga kerja misal dari IK ke IM atau sebaliknya apa harus ganti sampel?",
   "Respon": "Perbaikan dapat dilakukan selama data listing belum difinalisasikan. Apabila sudah melakukan finalisasi maka harus ganti sampel."
 },
 {
-  "Pertanyaan": "40. Blok VI r601 bahan baku yg didapat secara gratis misal pembuatan batu bata menggunakan air sumur yg ditimba Atau usaha gula merah yg mengambil nira dari kebun sendiri apakah air atau nira tsb harus di imputasi? ",
+  "Pertanyaan": "Blok VI R601 bahan baku yg didapat secara gratis misal pembuatan batu bata menggunakan air sumur yg ditimba Atau usaha gula merah yg mengambil nira dari kebun sendiri apakah air atau nira tsb harus di imputasi? ",
   "Respon": "Mengacu pada kegiatan utama ya, jadi saat pertama kali produk pada kegiatan utama itu diproduksi. "
 },
 {
-  "Pertanyaan": "41. r602 pengeluaran air minum untuk karyawan konveksi yg didapat secara gratis apakah harus diimputasi? misal mengambil dari sumur pake jet pump trus dimasak",
+  "Pertanyaan": "R602 pengeluaran air minum untuk karyawan konveksi yg didapat secara gratis apakah harus diimputasi? misal mengambil dari sumur pake jet pump trus dimasak",
   "Respon": "R602c adalah pemakaian air yang dibeli... Jika gratis tidak dimasukkan. \r\n\r\nNah, pengeluaran listrik untuk jet pump, dimasukkan ya, Pak... "
 },
 {
-  "Pertanyaan": "42. pada saat listing pemilik/pengusaha dihitung sbg jumlah tenaga pekerja atau tdk?",
+  "Pertanyaan": "Pada saat listing pemilik/pengusaha dihitung sbg jumlah tenaga pekerja atau tdk?",
   "Respon": "Pada saat listing dan pencacahan S2, pemilik/pengusaha tetap dihitung sebagai jumlah tenaga kerja.\r\nHanya pada saat pengisian di Blok IV, pengusaha tidak termasuk dicatat karena untuk mempermudah pengisian, sebab untuk karakteristik pengusaha sudah dicatat di Rincian 206."
 },
 {
-  "Pertanyaan": "43. bikin gorengan dirumah lalu dijual sendiri depan rumah apakah masuk industri?",
+  "Pertanyaan": "Bikin gorengan dirumah lalu dijual sendiri depan rumah apakah masuk industri?",
   "Respon": "selama tidak ada penyediaan makan dan minum termasuk industri"
 },
 {
-  "Pertanyaan": "44. Apakah terdapat aturan/batasan untuk beban petugas, brp BS per PCL dan brp PCL per pengawas ya? ",
+  "Pertanyaan": "Apakah terdapat aturan/batasan untuk beban petugas, brp BS per PCL dan brp PCL per pengawas ya? ",
   "Respon": "Tidak ada aturan baku ya, Diserahkan pada masing-masing daerah. \r\nBisa sebagai gambaran, 1 petugas 3 BS, di mana 1 BS terdapat 15 usaha. "
 },
 {
-  "Pertanyaan": "45. Blok III. untuk rincian yang tidak menampilkan referensi waktu di pertanyaan nya apakah tetap menggunakan referensi setahun yang lalu?",
+  "Pertanyaan": "Blok III. untuk rincian yang tidak menampilkan referensi waktu di pertanyaan nya apakah tetap menggunakan referensi setahun yang lalu?",
   "Respon": "Betul, dalam jangka waktu 12 bulan terakhir. "
 },
 {
-  "Pertanyaan": "46. Untuk anggota Kopersi harus yg berbadan hukum kak? atw bisa anggota koperasi yang tidak brbadan hukum?",
+  "Pertanyaan": "Untuk anggota Kopersi harus yg berbadan hukum kak? atw bisa anggota koperasi yang tidak brbadan hukum?",
   "Respon": "Koperasi harus yang di sahkan oleh Dinas Koperasi"
 },
 {
-  "Pertanyaan": "47. Apakah R309. untuk proses kegiatan usaha jika ada pamanfaatan menggunakan internet, apakah 309 harus ada elektroniknya?",
+  "Pertanyaan": "Apakah R309. untuk proses kegiatan usaha jika ada pamanfaatan menggunakan internet, apakah 309 harus ada elektroniknya?",
   "Respon": "Iya. Isian R309 berkaitan dengan teknologi yang digunakan dalam seluruh kegiatan usaha/perusahaan"
 },
 {
-  "Pertanyaan": "48. Dok VIMK24-S2, R306. untuk usaha maklon (bahan baku dari pengusaha lain) isian 306. a  Bahan baku terisi kode 3 kemudian R.306.b Bentuk/pola kemitraan yang dilaksanakannya apa ..?",
+  "Pertanyaan": "Dok VIMK24-S2, R306. untuk usaha maklon (bahan baku dari pengusaha lain) isian 306. a  Bahan baku terisi kode 3 kemudian R.306.b Bentuk/pola kemitraan yang dilaksanakannya apa ..?",
   "Respon": "Maklon bukan kemitraan"
 },
 {
-  "Pertanyaan": "49. Kalo pengusaha tdk masuk R401a, maka isian R401a, R402 dan R403 boleh kosong?",
+  "Pertanyaan": "Kalo pengusaha tdk masuk R401a, maka isian R401a, R402 dan R403 boleh kosong?",
   "Respon": "Apabila pengusaha tersebut bekerja sendiri (tunggal), maka isian rincian 401a sd. 403 boleh kosong"
 },
 {
-  "Pertanyaan": "50. IMK pembuat roti yang dititipkan di warung-warun apakah termasuk kemitraan konsinyasi?",
+  "Pertanyaan": "IMK pembuat roti yang dititipkan di warung-warun apakah termasuk kemitraan konsinyasi?",
   "Respon": "Iya termasuk Perdagangan umum/konsinyasi"
 },
 {
-  "Pertanyaan": "51. Pengajuan ganti sampel Blok Sensus, apakah harus strata yang sama? misalkan strata non konsentrasi (25), apakah bisa diusulkan penggantinya strata 01 atau 02 atau lainnya selain strata 25?",
+  "Pertanyaan": "Pengajuan ganti sampel Blok Sensus, apakah harus strata yang sama? misalkan strata non konsentrasi (25), apakah bisa diusulkan penggantinya strata 01 atau 02 atau lainnya selain strata 25?",
   "Respon": "Diusahakan BS diganti dengan strata yang sama, atau punya kemiripan, strata non konsentrasi sbg pilihan pengganti terakhir"
 },
 {
-  "Pertanyaan": "52. Apakah pemilik/pengusaha bisa lebih dari 1, misal ada kakak-adik usaha bersama?",
+  "Pertanyaan": "Apakah pemilik/pengusaha bisa lebih dari 1, misal ada kakak-adik usaha bersama?",
   "Respon": "Tuliskan pemilik atau jika dimiliki oleh dua orang, mungkin bisa diisikan yang dianggap sebagai pimpinan tertinggi."
 },
 {
-  "Pertanyaan": "53. bulan terakhir produksi di blok V maksudnya? apakah sama dengan sebulan terakhir atau gimana?",
-  "Respon": "bulan terakhir berproduksi adalah bulan terakhir suatu usaha berproduksi dalam periode pencacahan (Juli 2023-Juni 2024). Misalnya usaha tempe A, karena pengusaha sakit hanya berproduksi sampai bulan Mei 2024. Maka bulan terakhir berproduksi adalah Mei 2024"
+  "Pertanyaan": "Bulan terakhir produksi di blok V maksudnya? apakah sama dengan sebulan terakhir atau gimana?",
+  "Respon": "Bulan terakhir berproduksi adalah bulan terakhir suatu usaha berproduksi dalam periode pencacahan (Juli 2023-Juni 2024). Misalnya usaha tempe A, karena pengusaha sakit hanya berproduksi sampai bulan Mei 2024. Maka bulan terakhir berproduksi adalah Mei 2024"
 },
 {
-  "Pertanyaan": "54. Mohon konfirmasi untuk pada contoh bahan penolong, kemasan termasuk bahan penolong, kemarin saat IBS kemasan tidak termasuk bahan penolong tetapi masuk pengeluaran lainnya. Apakah memang konsepnya berbeda?",
-  "Respon": "di konsep IMK, kemasan juga tidak masuk sebagai bahan penolong seperti tas kresek, plastik, kotak. Yang masuk sebagai bahan penolong di IMK seperti daun pembukus tempe, plastik untuk membungkus es lilin (untuk lebih jelasnya bisa membaca buku modul)"
+  "Pertanyaan": "Mohon konfirmasi untuk pada contoh bahan penolong, kemasan termasuk bahan penolong, kemarin saat IBS kemasan tidak termasuk bahan penolong tetapi masuk pengeluaran lainnya. Apakah memang konsepnya berbeda?",
+  "Respon": "Di konsep IMK, kemasan juga tidak masuk sebagai bahan penolong seperti tas kresek, plastik, kotak. Yang masuk sebagai bahan penolong di IMK seperti daun pembukus tempe, plastik untuk membungkus es lilin (untuk lebih jelasnya bisa membaca buku modul)"
 },
 {
-  "Pertanyaan": "55. industri mikro dikerjakan suami istri, si istri sifatnya membantu tdk menerima upah. Saat listing ini dihitung 1 atau 2 pekerja? klo pas listing dihitung 2 pekerja, brp jml pekerja yg ditulsi di R402?",
-  "Respon": "untuk menghitung pekerja, maka harus memenuhi konsep berikut:\r\nPekerja: semua orang yang biasanya bekerja di suatu usaha/perusahaan yang bekerja paling sedikit satu jam terus menerus dalam seminggu.\r\npekerja dalam hal ini termasuk pekerja dibayar dan pekerja tidak dibayar (pekerja keluarga), pekerja tifak tetap, dan pekerja kontrak.\r\nApabila suami/istri tersebut bekerja paling sedikit satu jam terus menerus dalam seminggu. Maka saat listing dihitung sebagai pekerja tidak dibayar. Pekerja yang dihitung di R402 adalah jumlah pekerja TANPA pengusaha. Karena data pengusaha dicatat sendiri di R206"
+  "Pertanyaan": "Industri mikro dikerjakan suami istri, si istri sifatnya membantu tdk menerima upah. Saat listing ini dihitung 1 atau 2 pekerja? klo pas listing dihitung 2 pekerja, brp jml pekerja yg ditulsi di R402?",
+  "Respon": "Untuk menghitung pekerja, maka harus memenuhi konsep berikut:\r\nPekerja: semua orang yang biasanya bekerja di suatu usaha/perusahaan yang bekerja paling sedikit satu jam terus menerus dalam seminggu.\r\npekerja dalam hal ini termasuk pekerja dibayar dan pekerja tidak dibayar (pekerja keluarga), pekerja tifak tetap, dan pekerja kontrak.\r\nApabila suami/istri tersebut bekerja paling sedikit satu jam terus menerus dalam seminggu. Maka saat listing dihitung sebagai pekerja tidak dibayar. Pekerja yang dihitung di R402 adalah jumlah pekerja TANPA pengusaha. Karena data pengusaha dicatat sendiri di R206"
 },
 {
-  "Pertanyaan": "56. blok VI. pengeluaran yang di gunakan bersamaan antara usaha dan pribadi apakah harus di proporsi (contoh listrik, pulsa untuk komunikasi dll)",
-  "Respon": "iya, benar. Yang dicatat sebagai pengeluaran usaha adalah yang digunakan untuk usaha saja"
+  "Pertanyaan": "Blok VI. pengeluaran yang di gunakan bersamaan antara usaha dan pribadi apakah harus di proporsi (contoh listrik, pulsa untuk komunikasi dll)",
+  "Respon": "Iya, benar. Yang dicatat sebagai pengeluaran usaha adalah yang digunakan untuk usaha saja"
 },
 {
-  "Pertanyaan": "57. Industri kue basah dibantu anak yg masih sekolah tanpa dibayar, ini dihitung sbg pekerja atau tidak?",
+  "Pertanyaan": "Industri kue basah dibantu anak yg masih sekolah tanpa dibayar, ini dihitung sbg pekerja atau tidak?",
   "Respon": "mengikuti konsep berikut ya,\r\nPekerja: semua orang yang biasanya bekerja di suatu usaha/perusahaan yang bekerja paling sedikit satu jam terus menerus dalam seminggu.\r\npekerja dalam hal ini termasuk pekerja dibayar dan pekerja tidak dibayar (pekerja keluarga), pekerja tifak tetap, dan pekerja kontrak."
 },
 {
-  "Pertanyaan": "58. Tahun beroperasi ketika berubah badan usaha kok beda konsep antara IMK Tahunan dan IBS ya padahal sama-sama industri. Jika di materi IBS dituliskan tahun badan usaha terakhir, tetapi pada IMK jika tidak berubah KBLI 2 digit maka tetap tahun awal beroperasi. mohon penjelasan dan kepastiannya.",
+  "Pertanyaan": "Tahun beroperasi ketika berubah badan usaha kok beda konsep antara IMK Tahunan dan IBS ya padahal sama-sama industri. Jika di materi IBS dituliskan tahun badan usaha terakhir, tetapi pada IMK jika tidak berubah KBLI 2 digit maka tetap tahun awal beroperasi. mohon penjelasan dan kepastiannya.",
   "Respon": "Memang berbeda, di IMK kami ingin melihat dinamika usaha sehingga terlihat riwayat usahanya."
 },
 {
-  "Pertanyaan": "59. R.502 c. Bahan baku apa saja yang perlu dilakukan imputasi?",
+  "Pertanyaan": "R.502 c. Bahan baku apa saja yang perlu dilakukan imputasi?",
   "Respon": "Imputasi dilakukan untuk semua bahan baku yang benar-benar tidak mengeluarkan biaya sama sekali untuk perolehanannya."
 },
 {
-  "Pertanyaan": "60. Berikan contoh2 bahan baku yg diimputasi",
+  "Pertanyaan": "Berikan contoh2 bahan baku yg diimputasi",
   "Respon": "Misalnya usaha pembuatan sapu lidi, bahan baku daun kelapa diperoleh dari hutan tanpa membeli. Maka dicatatkan perkiraan biaya perolehan bahan baku pelepah lidi pada R601 dan diimputasi nilainya di R502c"
 },
 {
-  "Pertanyaan": "61. Untuk listrik yang digunakan berbarengan antara Usaha dan Rumah Tangga, apakah di perkirakan ? dan untuk air galon yang sumber airnya dari sumur sendiri dan di olah menjadi air galon apakah di perkirakan juga  biaya pembelian bahan bakunya?",
+  "Pertanyaan": "Untuk listrik yang digunakan berbarengan antara Usaha dan Rumah Tangga, apakah di perkirakan ? dan untuk air galon yang sumber airnya dari sumur sendiri dan di olah menjadi air galon apakah di perkirakan juga  biaya pembelian bahan bakunya?",
   "Respon": "Ya, perlu diperkirakan proporsi biaya listrik yang digunakan untuk usaha. Untuk kasus air galon yang bahan bakunya berasal dari air sumur sendiri (tanpa mengeluarkan biaya), maka diperkirakan biaya perolehannya di R601 dan diimputasikan nilainya di R502."
 },
 {
-  "Pertanyaan": "62. Untuk sewa bangunan, jika menggunakan rumah sendiri, apakah perlu inputasi?",
+  "Pertanyaan": "Untuk sewa bangunan, jika menggunakan rumah sendiri, apakah perlu inputasi?",
   "Respon": "Rumah sendiri tidak perlu diimputasi sebagai sewa bangunan."
 },
 {
-  "Pertanyaan": "63. Industri batu bata yang hanya bangunan tiang dan atap untuk usahanya (tanah sewa), dilisting pada bangunan tersebut atau di bangunan rumahtangga pemilik usaha?",
+  "Pertanyaan": "Industri batu bata yang hanya bangunan tiang dan atap untuk usahanya (tanah sewa), dilisting pada bangunan tersebut atau di bangunan rumahtangga pemilik usaha?",
   "Respon": "Pendaftaran usaha/perusahaan di setiap blok sensus dilakukan dengan 2 pendekatan yaitu pendekatan bangunan dan pendekatan rumah tangga. Untuk contoh kasus usaha batu bata ini seperti yg dicontohkan di buku pedoman halaman 8. Usaha pembuatan batu bata, genting, gerabah ditempat yang hanya memiliki tiang dan terpal saja maka sudah dianggap bangunan usaha. Dengan demikian untuk kasus ini listing dilakukan di bangunan usaha."
 },
 {
-  "Pertanyaan": "64. Usaha Musiman Apakah tetap didata? Misal usaha kue kering pada saat lebaran",
+  "Pertanyaan": "Usaha Musiman Apakah tetap didata? Misal usaha kue kering pada saat lebaran",
   "Respon": "Bila usahanya hanya dilakukan pada menjelang lebaran saja, tidak masuk cakupan sampel survei IMK, seperti pd contoh yang diberikan"
 },
 {
-  "Pertanyaan": "65. Untuk Kawasan industri apakah harus memiliki instansi pembina?",
+  "Pertanyaan": "Untuk Kawasan industri apakah harus memiliki instansi pembina?",
   "Respon": "Tidak perlu ada instansi pembina."
 },
 {
-  "Pertanyaan": "66. Untuk penggantian blok sensus di iframe tidak ada objek yg diteliti pada blok yang tersedia, lalu bagaimana penggantian BS nya? Penggantian BS apakah harus sama strata nya? ",
+  "Pertanyaan": "Untuk penggantian blok sensus di iframe tidak ada objek yg diteliti pada blok yang tersedia, lalu bagaimana penggantian BS nya? Penggantian BS apakah harus sama strata nya? ",
   "Respon": "BS pengganti diusahakan dengan BS strata yang sama. Bila sudah tidak ada lagi bisa dengan BS yang mendekati sama."
 },
 {
-  "Pertanyaan": "67. Untuk badan hukum sekarang DPMPTSP mengakomodir pengurusan ijin untuk perseroan perseorangan bagaimana pengisian terkait badan hukum",
+  "Pertanyaan": "Untuk badan hukum sekarang DPMPTSP mengakomodir pengurusan ijin untuk perseroan perseorangan bagaimana pengisian terkait badan hukum",
   "Respon": "Harus dipastikan terlebih dahulu apakah usaha tersebut benar memiliki ijin perseroan perseorangan, dibuktikan dengan menunjukkan nomor/surat ijinnya. Jika bisa membuktikan maka badan hukumnya dimasukkan ke \"PT\". Tapi apabila usaha tidak dapat menunjukkannya maka dimasukkan ke perorangan."
 },
 {
-  "Pertanyaan": "68. PBB untuk bangunan campuran apakah di bagi dua?",
+  "Pertanyaan": "PBB untuk bangunan campuran apakah di bagi dua?",
   "Respon": "Tidak harus dibagi dua, tetapi diproporsikan sesuai dengan luasan bangunan yang digunakan untuk usaha. Dan karena PBB adalah biaya yang dibayarkan untuk setahun, maka jangan lupa untuk dibagi 12 (atau dibagi sebanyak bulan usaha) untuk memperoleh biaya per bulan"
 },
 {
-  "Pertanyaan": "69. Apakah yg di listing termasuk bukan bangunan tempat tinggal seperti sekolah,mesjid?",
+  "Pertanyaan": "Apakah yg di listing termasuk bukan bangunan tempat tinggal seperti sekolah,mesjid?",
   "Respon": "Pendaftaran seluruh bangunan dan usaha/perusahaan"
 },
 {
-  "Pertanyaan": "70. industri mikro rumahan dikerjakan suami istri, si istri sifatnya membantu tdk menerima upah. Anggap istri memenuhi syarat sbg pekerja spt di sakernas. Saat listing ini dihitung 1 atau 2 pekerja? klo pas listing dihitung 2 pekerja, brp jml pekerja yg ditulis di R402?",
+  "Pertanyaan": "Industri mikro rumahan dikerjakan suami istri, si istri sifatnya membantu tdk menerima upah. Anggap istri memenuhi syarat sbg pekerja spt di sakernas. Saat listing ini dihitung 1 atau 2 pekerja? klo pas listing dihitung 2 pekerja, brp jml pekerja yg ditulis di R402?",
   "Respon": "Syarat pekerja IMK mengikuti konsep berikut ya pak/bu,\r\nPekerja: semua orang yang biasanya bekerja di suatu usaha/perusahaan yang bekerja paling sedikit satu jam terus menerus dalam seminggu.\r\npekerja dalam hal ini termasuk pekerja dibayar dan pekerja tidak dibayar (pekerja keluarga), pekerja tifak tetap, dan pekerja kontrak.\r\nApabila saat listing jumlah pekerja 2 orang (termasuk pengusaha), maka di sampel R402 jumlah pekerja adalah 1. Isian R402 adalah jumlah pekerja TANPA pengusaha. Karena data pengusaha sudah dicatat sendiri di R206"
 },
 {
-  "Pertanyaan": "71. R701c nilai tanah \r\n1. Apakah tanah yg khusus digunakan utk usaha sj?\r\n2. Utk bangungan campuran apakah diproporsikan?",
+  "Pertanyaan": "R701c nilai tanah \r\n1. Apakah tanah yg khusus digunakan utk usaha sj?\r\n2. Utk bangungan campuran apakah diproporsikan?",
   "Respon": "1. Betul\r\n2. Sesuai bahan ajar bangunan campuran nilai nya tidak dimasukkan sebagai aset"
 },
 {
-  "Pertanyaan": "72. R210 apakah khusus koperasi usaha sj? gmn jika ruta ikut koperasi umum atau simpan pinjam apakah masuk?",
+  "Pertanyaan": "R210 apakah khusus koperasi usaha sj? gmn jika ruta ikut koperasi umum atau simpan pinjam apakah masuk?",
   "Respon": "Semua jenis koperasi tetapi harus yang telah disahkan oleh Dinas Koperasi"
 },
 {
-  "Pertanyaan": "73. R701 aset/harta apakah khusus aset usaha sj? gmn jika aset tsb jg digunaka utk kepentingan pribadi spt motor, rumah dll",
+  "Pertanyaan": "R701 aset/harta apakah khusus aset usaha sj? gmn jika aset tsb jg digunaka utk kepentingan pribadi spt motor, rumah dll",
   "Respon": "sesuai bahan ajar untuk alat transportasi dicatat jika dominan digunakan untuk usaha. \r\n\r\nKendaraan yang juga digunakan untuk rumah tangga, jika penggunaannya dominan untuk IMK, maka dinilai penuh sebagai aset IMK. Tapi jika dominan untuk keperluan pribadi maka tidak dinilai sebagai aset."
 },
 {
-  "Pertanyaan": "74. R703b-g apakah khusus pinjaman yg digunakan utk usaha? pinjaman utk keperluan pribadi masuk gak?",
+  "Pertanyaan": "R703b-g apakah khusus pinjaman yg digunakan utk usaha? pinjaman utk keperluan pribadi masuk gak?",
   "Respon": "Hanya pinjaman untuk keperluan operasional usaha"
 },
 {
-  "Pertanyaan": "75. Membuat pesanan es teler di rumah, dibungkus, kemudian diantarkan ke pemesan, apakah masuk industri?",
+  "Pertanyaan": "Membuat pesanan es teler di rumah, dibungkus, kemudian diantarkan ke pemesan, apakah masuk industri?",
   "Respon": "Es teler yang di bungkus jika ada pesanan tidak masuk sebagai industri"
 },
 {
-  "Pertanyaan": "76. ada batasan khusus antara industri dan PMM? karena rata-rata yang industri juga menyediakan akomodasi makan minum. contoh industri kue, juga menyiapkan tempat untuk makan dan minum.",
+  "Pertanyaan": "Ada batasan khusus antara industri dan PMM? karena rata-rata yang industri juga menyediakan akomodasi makan minum. contoh industri kue, juga menyiapkan tempat untuk makan dan minum.",
   "Respon": "Batasan ketika usaha dikategorikan sebagai industri yaitu ketika tidak ada penyajian dalam rangkaian prosesnya.  Apabila seperti warung nasi uduk yang juga menjual gorengan sebagai pelengkap sajiannya dan ada tempat makan dan minum maka tidak dicatat sebagai industri, tetapi PMM"
 },
 {
-  "Pertanyaan": "77. Untuk Industri Bata Merah apakah yang belum dibakar masuk juga sebagai produksi? Harga untuk bata merah yang belum dibakar apakah diperkirakan sesuai jawaban responden? Untuk tenaga kerja seperti angkut bata merah ke truk yang gonti-ganti orang apakah dihitung juga sebagai Tenaga Kerja, dan bagaimana cara menghitung jumlah Tenaga Kerja nya apakah dirata-rata? atau yang dihitung hanya Tenaga Kerja yang sampai pembakaran bata merah? Saat listing kadang jumlah Tenaga Kerja responden menyebutkan kurang dari 5 dan masuk Industri Mikro (IM), ternyata pas dicacah lengkapnya kadang Tenaga Kerja nya bisa lebih dari 5 (IK), Untuk Industri Bata Merah mohon ada penegasan terkait kasus-kasus yang mungkin terjadi di lapangan.",
+  "Pertanyaan": "Untuk Industri Bata Merah apakah yang belum dibakar masuk juga sebagai produksi? Harga untuk bata merah yang belum dibakar apakah diperkirakan sesuai jawaban responden? Untuk tenaga kerja seperti angkut bata merah ke truk yang gonti-ganti orang apakah dihitung juga sebagai Tenaga Kerja, dan bagaimana cara menghitung jumlah Tenaga Kerja nya apakah dirata-rata? atau yang dihitung hanya Tenaga Kerja yang sampai pembakaran bata merah? Saat listing kadang jumlah Tenaga Kerja responden menyebutkan kurang dari 5 dan masuk Industri Mikro (IM), ternyata pas dicacah lengkapnya kadang Tenaga Kerja nya bisa lebih dari 5 (IK), Untuk Industri Bata Merah mohon ada penegasan terkait kasus-kasus yang mungkin terjadi di lapangan.",
   "Respon": "- Bata Merah yang belum dibakar masuk sebagai barang 1/2 jadi\r\n- ya, harga bata merah diperkirakan. Boleh sesuai pengakuan responden atau disesuikan dengan perkiraan harga setempat\r\n- seperti yang telah disampaikan pada saat pelatihan, tenaga kerja dihitung rata-rata pekerja tiap bulan untuk menghindari terjadinya kekeliruan identifikasi klasifikasi skala usaha"
 },
 {
-  "Pertanyaan": "78. Kalau berjualan gorengan di rumah tapi ada gerobaknya, apakah termasuk industri?",
+  "Pertanyaan": "Kalau berjualan gorengan di rumah tapi ada gerobaknya, apakah termasuk industri?",
   "Respon": "Gorengan yang pembuatannya dibuat di bangunan permanen Selama tidak ada proses penyajian, tidak ada tempat untuk makan dan minum di tempat, atau digunakan sebagai pelengkap sajian makanan lain seperti nasi uduk, maka bisa masuk sebagai industri."
 },
 {
-  "Pertanyaan": "79. Pengolahan dokumen apakah bisa menggunakan organik dengan sistem lembur?",
+  "Pertanyaan": "Pengolahan dokumen apakah bisa menggunakan organik dengan sistem lembur?",
   "Respon": "Diserahkan kepada kebijakan masing-masing provinsi"
 },
 {
-  "Pertanyaan": "80. bagaimana dengan jualan gorengan yg tidak ada kemasan apa kategori industry kah?",
+  "Pertanyaan": "Bagaimana dengan jualan gorengan yg tidak ada kemasan apa kategori industry kah?",
   "Respon": "Yang dilihat bukan konteks menjualnya tetapi membuat gorengannya. Membuat gorengan tidak perlu menggunakan kemasan bapak/ibu. Saya ambil contoh membuat gorengan di dapur rumah, kemudian dititipkan ke warung atau dijual sendiri dengan cara dijajakkan.  Ini masuk industri."
 },
 {
-  "Pertanyaan": "81. Kalau warung bakso, membuat bakso, sebagian dijual dalam bentuk pentol aja, tetap PMM atau dipisah PMM dan industri?",
+  "Pertanyaan": "Kalau warung bakso, membuat bakso, sebagian dijual dalam bentuk pentol aja, tetap PMM atau dipisah PMM dan industri?",
   "Respon": "Tergantung dari nature usahanya, apabila naturenya adalah warung bakso maka masuk PMM."
 },
 {
-  "Pertanyaan": "82. kalau menjahit pakaian jadi tapi kainnya dari pelanggan, apakah masuk industri?",
+  "Pertanyaan": "Kalau menjahit pakaian jadi tapi kainnya dari pelanggan, apakah masuk industri?",
   "Respon": "ya, masuk industri (maklun)"
 },
 {
-  "Pertanyaan": "83. Industri kupas jambu mete masuk ya sebagai Industri? ",
+  "Pertanyaan": "Industri kupas jambu mete masuk ya sebagai Industri? ",
   "Respon": "pengupasan jambu mete sampai biji mete kering \r\n1. Biji jambu mete gelondongan di belah pakai alat lalu kulitnya dikupas\r\n2. Biji yang sudah dikupas dipanaskan untuk mempermudah mengupas kulit ari\r\n3. Kulit ari dikupas\r\n4. Biji mete yang telah dikupas kulit arinya lalu dijemur dibawah terik matahari\r\n(ada proses yang dilakukan merubah bahan mentah menjadi barang jadi atau barang setengah jadi, atau mengubah barang setengah jadi menjadi barang jadi maka ini adalah industri)"
 },
 {
-  "Pertanyaan": "84. gimana penentuan KBLI masuk industri atau bukan jika usaha tersebut melakukan kegiatan penjualan suatu produk dimana segaian merupakan hasil pembelian dan sebagian  lagi produk yang di jual merupakan produk yang di buat sendiri",
+  "Pertanyaan": "gimana penentuan KBLI masuk industri atau bukan jika usaha tersebut melakukan kegiatan penjualan suatu produk dimana segaian merupakan hasil pembelian dan sebagian  lagi produk yang di jual merupakan produk yang di buat sendiri",
   "Respon": "Bila ada sebagian produk yang dijual merupakan hasil produksi sendiri, masuk sebagai industri"
 },
 {
-  "Pertanyaan": "85. Jika terdapat warung makan, tapi dia juga membuat tempe sendiri dari kedelai. & tempe yang masih mentah itu juga dijual ke konsumen dan warung lain. Apakah warung ini tercatat sebagai usaha PMM dan usaha Industri, atau pilih salah satunya?",
+  "Pertanyaan": "Jika terdapat warung makan, tapi dia juga membuat tempe sendiri dari kedelai. & tempe yang masih mentah itu juga dijual ke konsumen dan warung lain. Apakah warung ini tercatat sebagai usaha PMM dan usaha Industri, atau pilih salah satunya?",
   "Respon": "Memproduksi tempe sendiri termasuk sebagai industri. Dalam kasus ini bukan warungnya yang dicatat, melainkan kegiatan membuat tempe dicatat sebagai industri."
 },
 {
-  "Pertanyaan": "86. Tadi disebutkan bahwa pemberian es pada ikan bukan industri, tetapi ada di KBLI 10217 Industri Pendinginan/Pengesan Ikan\r\nURAIAN\r\nKelompok ini mencakup usaha pengolahan dan pengawetan ikan (bersirip/pisces) melalui proses pendinginan/pengesan.\r\n Jadi masuk industri atau bukan?",
+  "Pertanyaan": "Tadi disebutkan bahwa pemberian es pada ikan bukan industri, tetapi ada di KBLI 10217 Industri Pendinginan/Pengesan Ikan\r\nURAIAN\r\nKelompok ini mencakup usaha pengolahan dan pengawetan ikan (bersirip/pisces) melalui proses pendinginan/pengesan.\r\n Jadi masuk industri atau bukan?",
   "Respon": "di IMK hampir tidak ada kegiatan KBLI 10217 karena pendinginan di IMK dilakukan oleh nelayan yang mana bukan kegiatan industri tetapi perikanan (A)  "
 },
 {
-  "Pertanyaan": "87. Penjahit di pasar tapi ternyata setahun terakhir lebih banyak kegiatan permak dibanding menjahit apakah tetap dicatat sbg industri?",
+  "Pertanyaan": "Penjahit di pasar tapi ternyata setahun terakhir lebih banyak kegiatan permak dibanding menjahit apakah tetap dicatat sbg industri?",
   "Respon": "Kembali ke nature usaha tersebut, menjahit atau permak. Jika nature nya adalah penjahit pakaian maka tetap dicatat sebagai industri."
 },
 {
-  "Pertanyaan": "88. Penggilingan kelapa, masuk industri atau jasa?",
+  "Pertanyaan": "Penggilingan kelapa, masuk industri atau jasa?",
   "Respon": "Jasa pemarutan kelapa saja (hanya jasa) masuk Industri tetapi jika Kegiatan pemarutan kelapa menyatu dengan perdagangannya masuk kategori Perdagangan (G)\r\n\r\n"
 },
 {
-  "Pertanyaan": "89. Pembuatan bawang goreng masuk kbli apa ya?",
+  "Pertanyaan": "Pembuatan bawang goreng masuk kbli apa ya?",
   "Respon": "KBLI 10799"
 },
 {
-  "Pertanyaan": "90. Membuat teman nasi (lauk pauk) kemudian dibungkus dengan plastik tanpa ada proses pengawetan apakah masuk ke dalam industri? Seperti halnya membuat bubur kacang hijau, biji salak dan sejenisnya yang hanya dikemas dengan plastik",
+  "Pertanyaan": "Membuat teman nasi (lauk pauk) kemudian dibungkus dengan plastik tanpa ada proses pengawetan apakah masuk ke dalam industri? Seperti halnya membuat bubur kacang hijau, biji salak dan sejenisnya yang hanya dikemas dengan plastik",
   "Respon": "lauk pauk yang tidak ada proses pengawetan bukan industri"
 },
 {
-  "Pertanyaan": "91. misalnya usaha pembuatan tempe yg dilakukan oleh kepala keluarga dibantu istri dan anaknya, berarti kepala keluarga sebagai pengusaha tdk dimasukkan ke pekerja, tapi istri dan anaknya dicatat sebagai pekerja tdk dibayar ya?",
-  "Respon": "untuk pengisian blok VI VIMK24-S2, banyaknya pekerja tidak termasuk pengusaha. Pekerja keluarga dicatat sebagai pekerja jika memenuhi syarat bekerja paling sedikit satu jam terus menerus dalam seminggu."
+  "Pertanyaan": "Misalnya usaha pembuatan tempe yg dilakukan oleh kepala keluarga dibantu istri dan anaknya, berarti kepala keluarga sebagai pengusaha tdk dimasukkan ke pekerja, tapi istri dan anaknya dicatat sebagai pekerja tdk dibayar ya?",
+  "Respon": "Untuk pengisian blok VI VIMK24-S2, banyaknya pekerja tidak termasuk pengusaha. Pekerja keluarga dicatat sebagai pekerja jika memenuhi syarat bekerja paling sedikit satu jam terus menerus dalam seminggu."
 },
 {
-  "Pertanyaan": "92. Mengiris kunyit dan dikeringkan apakah masuk industri",
+  "Pertanyaan": "Mengiris kunyit dan dikeringkan apakah masuk industri",
   "Respon": "Masuk industri, sama seperti irisan buah pinang yang dikeringkan, sudah terjadi perubahan bentuk pada bahan yang digunakan."
 },
 {
-  "Pertanyaan": "93. untuk Kerajinan Tas kain, tas kulit, tas plastik/terpal yang dijahit, goodie bag, tas spunbond yang memanfaatkan bahan daur ulang, bagaimana penjelasan kasus batas dengan  diluar Industri?\r\n",
+  "Pertanyaan": "Untuk Kerajinan Tas kain, tas kulit, tas plastik/terpal yang dijahit, goodie bag, tas spunbond yang memanfaatkan bahan daur ulang, bagaimana penjelasan kasus batas dengan  diluar Industri?\r\n",
   "Respon": "selama kegiatan tersebut menghasilkan produk industri maka masuk industri tetapi jika produk daur ulang menjadi produk seperti bijih plastik, bubur kertas maka bukan industri"
 },
 {
-  "Pertanyaan": "94. Bagaimana pengertian sentra industri? Apakah harus ada surat resmi jika dikatakan sentra industri atau berdasarkan anggapan masyarakat saja bisa disebut sentra industri?",
+  "Pertanyaan": "Bagaimana pengertian sentra industri? Apakah harus ada surat resmi jika dikatakan sentra industri atau berdasarkan anggapan masyarakat saja bisa disebut sentra industri?",
   "Respon": "tidak perlu surat resmi"
 },
 {
-  "Pertanyaan": "95. produksi yg blm habis terjual apakah dihitung jumlahnya di R501c kolom 4?",
+  "Pertanyaan": "Produksi yg blm habis terjual apakah dihitung jumlahnya di R501c kolom 4?",
   "Respon": "Produksi yang dinilaikan di R501 adalah nilai semua produk yang dihasilkan oleh usaha/perusahaan tanpa melihat produk tersebut habis terjual atau tidak"
 },
 {
-  "Pertanyaan": "96. pekerja keluarga tidak dibayar (selain pengusaha) pd saat listing dihitung atau tdk?",
+  "Pertanyaan": "Pekerja keluarga tidak dibayar (selain pengusaha) pd saat listing dihitung atau tdk?",
   "Respon": "Pekerja: Semua orang yang biasanya bekerja di suatu usaha/perusahaan yang bekerja paling sedikit satu jam terus menerus dalam seminggu. Pekerja dalam hal ini termasuk: pekerja dibayar dan pekerja tidak dibayar (pekerja keluarga), pekerja tidak tetap, dan pekerja kontrak;\r\n\r\n"
 },
 {
-  "Pertanyaan": "97. Untuk kasus penggantian sampel 1 : KBLI sama dan skala usaha berbeda\r\n\r\nJika pada sampel cadangan tidak tersedia sesuai kriteria tersebut maka tidak perlu dilakukan penggantian sampel\r\n\r\nKonfirmasi, apabila tidak tersedia cadangan dengan kriteria awal maka tidak perlu diganti dan tetap dicacah walaupun dengan skala yang berbeda?",
+  "Pertanyaan": "Untuk kasus penggantian sampel 1 : KBLI sama dan skala usaha berbeda\r\n\r\nJika pada sampel cadangan tidak tersedia sesuai kriteria tersebut maka tidak perlu dilakukan penggantian sampel\r\n\r\nKonfirmasi, apabila tidak tersedia cadangan dengan kriteria awal maka tidak perlu diganti dan tetap dicacah walaupun dengan skala yang berbeda?",
   "Respon": "Bila tidak ada lagi sampel pengganti sesuai kriteria penggantian sampel yang telah ditentukan, maka tidak perlu mengganti sampel"
 },
 {
-  "Pertanyaan": "98. Instansi Pembina untuk sentra industri apakah boleh diisi selain dari pemerintah? Misal dari perusahaan (CSR)\r\n\r\nKalau tidak ada instansi pembina diisikan \"-\" atau \"Tidak Ada\" karena di fasih dan materi berbeda",
+  "Pertanyaan": "Instansi Pembina untuk sentra industri apakah boleh diisi selain dari pemerintah? Misal dari perusahaan (CSR)\r\n\r\nKalau tidak ada instansi pembina diisikan \"-\" atau \"Tidak Ada\" karena di fasih dan materi berbeda",
   "Respon": "silakan di isi - atau tidak ada"
 },
 {
-  "Pertanyaan": "99. instrumen apa saja yang dibawah petugas saat melakukan Lisrting ?",
+  "Pertanyaan": "Instrumen apa saja yang dibawah petugas saat melakukan Listing?",
   "Respon": "peta BS SE2016 atau peta BS SP2020, HP Android yang sudah terinstal aplikasi Fasih"
 },
 {
-  "Pertanyaan": "100. untuk penarikan sampelnya bagaimana, apakah per blok sensus selesai kemudian tarik sampel atau menunggu seluruh blok sensus kabupaten selesai ?",
-  "Respon": "iya harus selesai listing seluruh blok sensus dalam 1 kabupaten/kota baru tarik sampel"
+  "Pertanyaan": "Untuk penarikan sampelnya bagaimana, apakah per blok sensus selesai kemudian tarik sampel atau menunggu seluruh blok sensus kabupaten selesai ?",
+  "Respon": "Iya harus selesai listing seluruh blok sensus dalam 1 kabupaten/kota baru tarik sampel"
 },
 {
-  "Pertanyaan": "101. Pekerja Tidak Dibayar apakah balas jasanya diimputasi di R403 (Nilai seluruh balas jasa)?",
+  "Pertanyaan": "Pekerja Tidak Dibayar apakah balas jasanya diimputasi di R403 (Nilai seluruh balas jasa)?",
   "Respon": "Jika tidak ada tenaga kerja dibayar, maka isian r403 boleh kosong."
 },
 {
-  "Pertanyaan": "102. Penyewaan tanah yang dilakukan oleh pengusaha batu bata, pengeluaran sewa tanah dicatat pada rincian apa?",
+  "Pertanyaan": "Penyewaan tanah yang dilakukan oleh pengusaha batu bata, pengeluaran sewa tanah dicatat pada rincian apa?",
   "Respon": "dicatat sebagai pengeluaran lainnya. Apabila penyewaan tanah ini mencakup tanah yang digunakan sebagai bahan baku, maka biaya yang dicatat sebagai sewa tanah harus dikurangi dengan biaya bahan baku tanah. Misalkan biaya sewa tanah 5 juta, diperkirakan biaya bahan baku  tanah sebesar 1 juta. Maka biaya sewa tanah yang dicatat dipengeluaran lainnya di R602o adalah 4 juta. di R601 pengeluaran bahan baku dicatat 1juta"
 },
 {
-  "Pertanyaan": "103. Jika R901 bahan baku utama dibeli dari luar provinsi, Misal Jawa Timur dan Jawa Barat bagaimana penulisan di 901c karena hanya tersedia untuk menuliskan satu provinsi saja",
+  "Pertanyaan": "Jika R901 bahan baku utama dibeli dari luar provinsi, Misal Jawa Timur dan Jawa Barat bagaimana penulisan di 901c karena hanya tersedia untuk menuliskan satu provinsi saja",
   "Respon": "Dipilih salah satu provinsi yang menjadi tempat pembelian bahan baku terbanyak"
 }
 ]
