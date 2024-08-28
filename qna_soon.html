@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon!</title>
+    <title>Mo-Nanya Survei</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* ... (keep previous styles) ... */
         .qa {
             margin-bottom: 20px;
             border-bottom: 1px solid #eee;
@@ -21,7 +20,7 @@
             color: #666;
         }
         .collapsible {
-            background-color: #777;
+            background-color: #EB891B;
             color: white;
             cursor: pointer;
             padding: 18px;
@@ -32,7 +31,8 @@
             font-size: 15px;
         }
         .active, .collapsible:hover {
-            background-color: #555;
+            background-color: #B86810;
+            border-radius: 3px;
         }
         .content {
             padding: 0 18px;
@@ -45,19 +45,42 @@
             height: 500px;
             margin-top: 20px;
         }
+        .pagination-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .pagination {
+            display: flex;
+            align-items: center;
+        }
+        .pagination button, .per-page-select select {
+            margin: 0 5px;
+            padding: 5px 10px;
+        }
+        .search-container {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        #search-input {
+            width: 200px;
+            padding: 5px;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
     <nav>
-        <!-- ... (keep navigation links) ... -->
-         <a href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="qna_vimk.html">Survei IMK Tahunan</a>
         <a href="qna_soon.html">Coming Soon!</a>
-        <!-- <a href="files.html">Files</a> -->  
     </nav>
-    
+
     <div class="container">
-        <h1>QnA Pendataan Survei</h1>
+        <h1>Mo-Nanya Survei (Soon)</h1>
+   
         <button type="button" class="collapsible">Kuesioner</button>
         <div class="content">
             <div class="pdf-container">
@@ -67,26 +90,102 @@
     
         <button type="button" class="collapsible">Tanya - Jawab</button>
         <div class="content">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search questions...">
+            </div>
             <div id="qna-container"></div>
+            <div class="pagination-container">
+                <div class="pagination">
+                    <button id="prev-page">Previous</button>
+                    <span id="page-info"></span>
+                    <button id="next-page">Next</button>
+                </div>
+                <div class="per-page-select">
+                    <select id="per-page">
+                        <option value="10">10 per halaman</option>
+                        <option value="25">25 per halaman</option>
+                        <option value="50">50 per halaman</option>
+                    </select>
+            </div>
         </div>
-    
+    </div>
+
     <script>
+        let allData = [];
+        let filteredData = [];
+        let currentPage = 1;
+        let questionsPerPage = 10;
+
         // Load Q&A data
         fetch('qna_soon.json')
             .then(response => response.json())
             .then(data => {
-                const container = document.getElementById('qna-container');
-                data.forEach((item, index) => {
-                    const qaDiv = document.createElement('div');
-                    qaDiv.className = 'qa';
-                    qaDiv.innerHTML = `
-                        <div class="Pertanyaan">${index + 1}. ${item.Pertanyaan}</div>
-                        <div class="Respon">${item.Respon}</div>
-                    `;
-                    container.appendChild(qaDiv);
-                });
+                allData = data;
+                filteredData = [...allData];
+                renderQnA();
             })
             .catch(error => console.error('Error loading Q&A data:', error));
+
+        function renderQnA() {
+            const container = document.getElementById('qna-container');
+            container.innerHTML = '';
+            
+            const startIndex = (currentPage - 1) * questionsPerPage;
+            const endIndex = startIndex + questionsPerPage;
+            const pageData = filteredData.slice(startIndex, endIndex);
+
+            pageData.forEach((item, index) => {
+                const qaDiv = document.createElement('div');
+                qaDiv.className = 'qa';
+                qaDiv.innerHTML = `
+                    <div class="Pertanyaan">${startIndex + index + 1}. ${item.Pertanyaan}</div>
+                    <div class="Respon">${item.Respon}</div>
+                `;
+                container.appendChild(qaDiv);
+            });
+
+            updatePagination();
+        }
+
+        function updatePagination() {
+            const pageInfo = document.getElementById('page-info');
+            const totalPages = Math.ceil(filteredData.length / questionsPerPage);
+            pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+
+            document.getElementById('prev-page').disabled = currentPage === 1;
+            document.getElementById('next-page').disabled = currentPage === totalPages || totalPages === 0;
+        }
+
+        document.getElementById('prev-page').addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                renderQnA();
+            }
+        });
+
+        document.getElementById('next-page').addEventListener('click', () => {
+            const totalPages = Math.ceil(filteredData.length / questionsPerPage);
+            if (currentPage < totalPages) {
+                currentPage++;
+                renderQnA();
+            }
+        });
+
+        document.getElementById('per-page').addEventListener('change', (e) => {
+            questionsPerPage = parseInt(e.target.value);
+            currentPage = 1;
+            renderQnA();
+        });
+
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            filteredData = allData.filter(item => 
+                item.Pertanyaan.toLowerCase().includes(searchTerm) || 
+                item.Respon.toLowerCase().includes(searchTerm)
+            );
+            currentPage = 1;
+            renderQnA();
+        });
 
         // Collapsible functionality
         var coll = document.getElementsByClassName("collapsible");
