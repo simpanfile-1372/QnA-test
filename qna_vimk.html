@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QnA Pendataan Survei IMK Tahunan</title>
+    <title>Mo-Nanya Survei IMK Tahunan</title>
     <style>
-        /* ... (keep previous styles) ... */
-        body {
+                body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             padding: 20px;
@@ -63,48 +62,118 @@
             height: 500px;
             margin-top: 20px;
         }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .pagination button {
+            margin: 0 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .per-page-select {
+            margin-top: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <nav>
         <!-- ... (keep navigation links) ... -->
-         <a href="index.html">Home</a>
-        <a href="qna_vimk.html">Survei IMK Tahunan</a>
-        <a href="qna_soon.html">Coming Soon!</a>
-        <!-- <a href="files.html">Files</a> -->  
     </nav>
     
-    <h1>QnA Pendataan Survei IMK Tahunan</h1>
-    
-    <button type="button" class="collapsible">Kuesioner VIMK-S2</button>
+    <button type="button" class="collapsible">Kuesioner</button>
     <div class="content">
         <div class="pdf-container">
             <iframe src="Kuesioner_VIMK24-S2.pdf" width="100%" height="100%"></iframe>
         </div>
     </div>
     
-    <button type="button" class="collapsible">QnA</button>
-    <div class="content">
-        <div id="qna-container"></div>
-    </div>
+    <h1>Tanya - Jawab</h1>
     
+    <button type="button" class="collapsible">Tanya - Jawab </button>
+    <div class="content">
+        <div class="per-page-select">
+            <label for="per-page">Questions per page:</label>
+            <select id="per-page">
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+        <div id="qna-container"></div>
+        <div class="pagination">
+            <button id="prev-page">Previous</button>
+            <span id="page-info"></span>
+            <button id="next-page">Next</button>
+        </div>
+    </div>
+
     <script>
+        let allData = [];
+        let currentPage = 1;
+        let questionsPerPage = 10;
+
         // Load Q&A data
         fetch('qna_vimk.json')
             .then(response => response.json())
             .then(data => {
-                const container = document.getElementById('qna-container');
-                data.forEach((item, index) => {
-                    const qaDiv = document.createElement('div');
-                    qaDiv.className = 'qa';
-                    qaDiv.innerHTML = `
-                        <div class="Pertanyaan">${index + 1}. ${item.Pertanyaan}</div>
-                        <div class="Respon">${item.Respon}</div>
-                    `;
-                    container.appendChild(qaDiv);
-                });
+                allData = data;
+                renderQnA();
             })
             .catch(error => console.error('Error loading Q&A data:', error));
+
+        function renderQnA() {
+            const container = document.getElementById('qna-container');
+            container.innerHTML = '';
+            
+            const startIndex = (currentPage - 1) * questionsPerPage;
+            const endIndex = startIndex + questionsPerPage;
+            const pageData = allData.slice(startIndex, endIndex);
+
+            pageData.forEach((item, index) => {
+                const qaDiv = document.createElement('div');
+                qaDiv.className = 'qa';
+                qaDiv.innerHTML = `
+                    <div class="Pertanyaan">${startIndex + index + 1}. ${item.Pertanyaan}</div>
+                    <div class="Respon">${item.Respon}</div>
+                `;
+                container.appendChild(qaDiv);
+            });
+
+            updatePagination();
+        }
+
+        function updatePagination() {
+            const pageInfo = document.getElementById('page-info');
+            const totalPages = Math.ceil(allData.length / questionsPerPage);
+            pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+
+            document.getElementById('prev-page').disabled = currentPage === 1;
+            document.getElementById('next-page').disabled = currentPage === totalPages;
+        }
+
+        document.getElementById('prev-page').addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                renderQnA();
+            }
+        });
+
+        document.getElementById('next-page').addEventListener('click', () => {
+            const totalPages = Math.ceil(allData.length / questionsPerPage);
+            if (currentPage < totalPages) {
+                currentPage++;
+                renderQnA();
+            }
+        });
+
+        document.getElementById('per-page').addEventListener('change', (e) => {
+            questionsPerPage = parseInt(e.target.value);
+            currentPage = 1;
+            renderQnA();
+        });
 
         // Collapsible functionality
         var coll = document.getElementsByClassName("collapsible");
