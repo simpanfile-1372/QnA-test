@@ -88,6 +88,72 @@ h1 {
     height: 500px;
     margin-top: 20px;
 }
+.qa {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.Pertanyaan {
+    font-weight: bold;
+    color: #333;
+}
+.Respon {
+    margin-top: 5px;
+    color: #666;
+}
+.collapsible {
+    background-color: #EB891B;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.active, .collapsible:hover {
+    background-color: #B86810;
+    border-radius: 5px;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.pdf-container {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+}
+.pagination button, .per-page-select select {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+.search-container {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+#search-input {
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+}
 
 /* Media query for mobile devices */
 @media (max-width: 600px) {
