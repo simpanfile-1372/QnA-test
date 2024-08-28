@@ -4,27 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mo-Nanya Survei</title>
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        nav {
-            background-color: #f4f4f4;
-            padding: 10px;
-        }
-        nav a {
-            color: #333;
-            text-decoration: none;
-            padding: 5px 10px;
-        }
-        nav a:hover {
-            background-color: #ddd;
-        }
         .qa {
             margin-bottom: 20px;
             border-bottom: 1px solid #eee;
@@ -39,7 +20,7 @@
             color: #666;
         }
         .collapsible {
-            background-color: #777;
+            background-color: #EB891B;
             color: white;
             cursor: pointer;
             padding: 18px;
@@ -50,7 +31,8 @@
             font-size: 15px;
         }
         .active, .collapsible:hover {
-            background-color: #555;
+            background-color: #B86810;
+            border-radius: 3px;
         }
         .content {
             padding: 0 18px;
@@ -95,34 +77,35 @@
         <a href="qna_vimk.html">Survei IMK Tahunan</a>
         <a href="qna_soon.html">Coming Soon!</a>
     </nav>
-    
-    <h1>Mo-Nanya Survei IMK Tahunan</h1>
 
-    <button type="button" class="collapsible">Kuesioner</button>
-    <div class="content">
-        <div class="pdf-container">
-            <iframe src="Kuesioner_VIMK24-S2.pdf" width="100%" height="100%"></iframe>
-        </div>
-    </div>
-    
-    <button type="button" class="collapsible">Tanya - Jawab</button>
-    <div class="content">
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search questions...">
-        </div>
-        <div id="qna-container"></div>
-        <div class="pagination-container">
-            <div class="pagination">
-                <button id="prev-page">Previous</button>
-                <span id="page-info"></span>
-                <button id="next-page">Next</button>
+    <div class="container">
+        <h1>Mo-Nanya Survei IMK Tahunan</h1>
+   
+        <button type="button" class="collapsible">Kuesioner</button>
+        <div class="content">
+            <div class="pdf-container">
+                <iframe src="Kuesioner_VIMK24-S2.pdf" width="100%" height="100%"></iframe>
             </div>
-            <div class="per-page-select">
-                <select id="per-page">
-                    <option value="10">10 per halaman</option>
-                    <option value="25">25 per halaman</option>
-                    <option value="50">50 per halaman</option>
-                </select>
+        </div>
+    
+        <button type="button" class="collapsible">Tanya - Jawab</button>
+        <div class="content">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search questions...">
+            </div>
+            <div id="qna-container"></div>
+            <div class="pagination-container">
+                <div class="pagination">
+                    <button id="prev-page">Previous</button>
+                    <span id="page-info"></span>
+                    <button id="next-page">Next</button>
+                </div>
+                <div class="per-page-select">
+                    <select id="per-page">
+                        <option value="10">10 per halaman</option>
+                        <option value="25">25 per halaman</option>
+                        <option value="50">50 per halaman</option>
+                    </select>
             </div>
         </div>
     </div>
@@ -220,5 +203,6 @@
             });
         }
     </script>
+    </div>
 </body>
 </html>
